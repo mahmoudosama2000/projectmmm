@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainImage">
+
+    <ImageButton
+        android:id="@+id/newButton"
+        android:layout_width="123dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/news"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/about_Pal"
+        android:layout_width="128dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginEnd="80dp"
+        android:src="@drawable/palestaine"
+        app:layout_constraintBottom_toBottomOf="@+id/newButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newButton"
+        app:layout_constraintTop_toTopOf="@+id/newButton" />
+
+    <ImageButton
+        android:id="@+id/about_Qud"
+        android:layout_width="123dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/about_shkh"
+        app:layout_constraintEnd_toEndOf="@+id/newButton"
+        app:layout_constraintStart_toStartOf="@+id/newButton"
+        app:layout_constraintTop_toBottomOf="@+id/newButton"
+        app:srcCompat="@drawable/quds" />
+
+    <ImageButton
+        android:id="@+id/about_shkh"
+        android:layout_width="121dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/about_Pal"
+        app:layout_constraintStart_toStartOf="@+id/about_Pal"
+        app:layout_constraintTop_toBottomOf="@+id/about_Pal"
+        app:srcCompat="@drawable/shiekh" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="111dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/about_shkh"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/about_Qud"
+        app:layout_constraintTop_toBottomOf="@+id/about_Qud"
+        app:srcCompat="@drawable/vedio" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="sans-serif"
+        android:text="M.H.S News"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

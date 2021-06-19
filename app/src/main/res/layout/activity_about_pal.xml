@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutPal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pal" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="تنبع أهمية فلسطين من قيمتها الدينية. حيث اختارها الله تعالى من بين بقاع الأرض لتكون موطنا لغالبية الأنبياء ، وهناك أقدس وأقدس أماكن العبادة بعد المسجد الحرام والمسجد النبوي. من يدرك قيمة فلسطين الدينية سيدافع عنها ويفديها غالياً. يعتبر تاريخ فلسطين أقدم تاريخ للبشرية جمعاء. وذلك لأن معظم قوى العالم مرت عبر أرض فلسطين. شهدت هذه الأرض حكم البابليين والإغريق والفرس والرومان واليهودية والمسيحية والإسلام. شهدت فلسطين خلافة الخلفاء الراشدين ، والخلافة الأموية ، والخلافة العباسية ، والدولة الطولونية ، والدولة الاخشيدية ، والاحتلال الفاطمي ، والعصر الأيوبي ، والمملوكي ، والعثماني ، وفي العصر الحالي تقع فلسطين في ظل الغطرسة. الاحتلال الصهيوني. تتميز فلسطين بموقعها الاستراتيجي. تقع على الساحل الشرقي للبحر الأبيض المتوسط ​​، ويحدها من الجانب الغربي الأردن ، وتعتبر لبنان من الحدود الجنوبية لأرض فلسطين.
+فلو عرف المسلمون مكانة فلسطين في الشريعة الإسلامية ، وكم بذل العلماء والصالحين جهودًا كبيرة في بناء حضارتها ، فلن يتنازلوا عن حفظها ، ويكفي أن يختار الله فلسطين ؛ أن تكون على ثروتها الطاهرة ، ولادة أكثر الأنبياء ، وتكريمها بحضور المسجد الأقصى ، حيث صلى الأنبياء جميعاً." />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

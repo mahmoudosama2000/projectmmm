@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutQuds">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quds" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:text="تنبع أهمية القدس بشكل أساسي وأساسي من قدسية أتباع الديانات التوحيدية ، وخاصة بين أتباع الديانات الإسلامية والمسيحية. يحتوي على أقدس وأنقى المعالم الدينية. بالنسبة للمسلمين ، تحتوي القدس على العديد من المعالم ، منها: المسجد الأقصى ، ثالث أفضل مسجد في الإسلام بعد المسجد الحرام والمسجد النبوي. كما تضم ​​جامع عمر بن الخطاب الذي بني بعد دخول القدس فاتحا. أما بالنسبة للمسيحيين فهي كنيسة القيامة التي تحتوي على كنيسة القيامة. بالإضافة إلى ذلك ، فهي تضم عددًا من المعالم الأخرى ، من بينها طريق الآلام المقدس عند المسيحيين ، وتنبع أهمية القدس بشكل أساسي وأساسي من قدسيتها لدى أتباع الديانات التوحيدية ، وخاصة بين أتباع الديانات الإسلامية. والديانات المسيحية. يحتوي على أقدس وأنقى المعالم الدينية. بالنسبة للمسلمين ، تحتوي القدس على العديد من المعالم ، منها: المسجد الأقصى ، ثالث أفضل مسجد في الإسلام بعد المسجد الحرام والمسجد النبوي. كما تضم ​​جامع عمر بن الخطاب الذي بني بعد دخول القدس فاتحا. أما بالنسبة للمسيحيين فهي كنيسة القيامة التي تحتوي على كنيسة القيامة. بالإضافة إلى ذلك ، فهي تضم عددًا من المعالم الأخرى ، بما في ذلك طريق الآلام المقدس عند المسيحيين." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

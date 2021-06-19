@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">listviewNews</string>
+
+    <string-array name="nams">
+        <item>Mahmoud</item>
+        <item>Osama</item>
+        <item>Ahmed</item>
+        <item>Muhammad</item>
+        <item>Bilall</item>
+        <item>Moath</item>
+        <item>Khalill</item>
+        <item>Siraj</item>
+        <item>Hamada</item>
+        <item>Sameh</item>
+        <item>Fadil</item>
+        <item>Ibrahim</item>
+        <item>Ammar</item>
+        <item>Bayan</item>
+        <item>Musa</item>
+        <item>Iesa</item>
+        <item>Omar</item>
+        <item>Ayman</item>
+        <item>Rawad</item>
+        <item>Sharif</item>
+
+
+    </string-array>
+</resources>

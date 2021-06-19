@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutShkh">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shiekh" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="الشيخ جراح قرية فلسطينية بالقدس في محافظة القدس وتقع في الجهة الشرقية من مدينة القدس التي وقعت تحت الاحتلال الإسرائيلي في حرب 1967 وهي الآن إحدى أحياء القدس الشرقية. اسمها من الأمير حسام الدين بن شرف الدين عيسى الجراحي طبيب صلاح الدين الأيوبي الزعيم الكردي المسلم الذي تحول إلى رمز للأجيال العربية المتعاقبة منذ حوالي 900 عام ، و مهددة بخطة استيطانية إسرائيلية أعلن عنها الآن ، وتشمل بناء 200 وحدة سكنية سكنية للمستوطنين اليهود ، وسط هذا الحي العربي الواقع في القدس الشرقية المحتلة عام 1967 م ويقع حي الشيخ جراح في الجهة الشرقية من المدينة القديمة. مدينة القدس خارج الجدار. تأسس الحي في القدس عام 1956 بموجب اتفاقية موقعة بين الأونروا والحكومة الأردنية ، حيث استوعب في ذلك الوقت 28 عائلة فلسطينية نزحت من أراضيها المحتلة عام 1948 ، وفي عام 1880 وصل اليهودي يوسف بن رحاميم من أوروبا هربًا من اضطهاد اليهود هناك. سارع المقدسي نجل الشيخ جراح عبد ربه خليل بن إبراهيم إلى إنقاذه. وبحسب الشريعة الإسلامية ، يُطلق على هذا الإيجار اسم  ، لأنه يسمح لليهود بتأجير الأرض ويمنع بيعها لليهود وفق القوانين والأنظمة العثمانية. سعت إسرائيل عام 1948 لاحتلال الحي في موقعه الذي يربط بين القدس الشرقية والغربية ، ويعتبر نقطة مراقبة استراتيجية مهمة لإسرائيل ، تشرف عليها الجامعة العبرية الواقعة على جبل المشارف في القدس ، ولم تستطع إسرائيل احتلال الحي حتى عام 1967. أي بعد حرب النكسة. مع منع ربط أحياء القدس وفصلها بالوحدات الاستيطانية عام 1967 أثناء توسع الاحتلال الصهيوني ، عانى الحي من استيطان اليهود في الحي وتهجير بعض العائلات الفلسطينية وطردهم من منازلهم ، حيث تعرض أهالي الحي للاحتلال المفروض عليهم من قبل المستوطنين اليهود المتواجدين في الحي وتركيب كاميرات المراقبة واحتجاز السكان فيما يشبه السجن ، خاصة في المناسبات والأعياد اليهودية." />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
